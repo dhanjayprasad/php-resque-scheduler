@@ -15,9 +15,16 @@
 		}
 	},
 	"repositories": [
-		{ "type": "git", "url": "https://github.com/chrisboulton/php-resque" }
+		{
+			"type": "git",
+			"url": "https://github.com/chrisboulton/php-resque"
+		},
+		{
+		    "type": "vcs",
+		    "url": "https://github.com/dhanjayprasad/php-resque"
+		}
 	],
 	"require": {
-		"dhanjayprasad/php-resque": "*"
+		"chrisboulton/php-resque": "dev-master"
 	}
 }
